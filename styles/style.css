@@ -1,0 +1,26 @@
+html,
+body {
+  background-color: silver;
+  height: 100%;
+  margin: 0;
+}
+
+header, footer {
+  background-color: gray;
+  height: 80px;
+}
+
+.content {
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+
+#game {
+  width: 80%;
+  height: 80%;
+}
+
+#footer,
+.push {
+  height: 50px;
+}

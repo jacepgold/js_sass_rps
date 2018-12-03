@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS RPS 2</title>
+    <!-- <link rel="stylesheet" href="./styles/reset.css"> -->
+    <link rel="stylesheet" href="./styles/styles.css">
+  </head>
+  <body>
+    <div class="content">
+      <header>
+        <h1>Rock Paper Scissors</h1>
+      </header>
+      <div id="game">
+        <div id="score">
+          <h2>
+            Computer Score:
+            <span id="computer_score">0</span>
+          </h2>
+          <h2>
+            User Score:
+            <span id="user_score">0</span>
+          </h2>
+          <h2>
+            Tie:
+            <span id="tie_score">0</span>
+          </h2>
+        </div>
+        <div id="choice_field">
+          <h2>
+            Computer Choice: 
+            <span id="computerChoice"></span>
+          </h2>
+          <h2>
+            Your Choice: 
+            <span id="userChoice"></span>
+          </h2>
+          <div id="choose">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+          </div>
+        </div>
+        <br />
+      </div>
+      <div class="push"></div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
